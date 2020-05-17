@@ -30,16 +30,20 @@ In this first version we use the XML descriptor format [Angel Code](https://www.
 
 ## How to use?
 
-1. Drag and Drop your font image pre-created (ex. Photoshop)
+1 Drag and Drop your font image pre-created (ex. Photoshop)
+
 ![tuto1](https://raw.githubusercontent.com/rtalon83/multifont-react-app/master/doc/tuto1.jpg)
 
-2. Set correct letter in each image. In the future I'll use [Tesseract.js](https://tesseract.projectnaptha.com/)
+2 Set correct letter in each image. In the future I'll use [Tesseract.js](https://tesseract.projectnaptha.com/)
+
 ![tuto2](https://raw.githubusercontent.com/rtalon83/multifont-react-app/master/doc/tuto2.jpg)
 
-3. You can set font properties.
+3 You can set font properties.
+
 ![tuto3](https://raw.githubusercontent.com/rtalon83/multifont-react-app/master/doc/tuto4.jpg)
 
-4. And test the result.
+4 And test the result.
+
 ![tuto4](https://raw.githubusercontent.com/rtalon83/multifont-react-app/master/doc/tuto3.jpg)
 
 ## Pixi.js Test
