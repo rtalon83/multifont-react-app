@@ -1,0 +1,26 @@
+.atlas-list {
+    background-color: lightgray;
+    display: block;
+    width: 300px;
+    height: 100%;
+    float: left;
+    position: relative;
+    margin-left: 6px;
+    text-align: left;
+}
+
+.image-drop-help {
+    font-size: 14px;
+    text-align: center;
+
+    width: 250px;
+    padding: 30px 0;
+    margin: 50px auto;
+
+    background: #eee;
+    border: 1px solid darkgray;
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}

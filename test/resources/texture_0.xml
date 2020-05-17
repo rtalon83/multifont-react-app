@@ -1,0 +1,23 @@
+<font>
+    <info face="sample1" size="175" />
+    <common lineHeight="175" scaleW="1921" scaleH="1003" pages="0" />
+    <pages>
+        <page id="0" file="texture.png" />
+    </pages>
+    <chars count="10">
+        <char letter="6" id="54" x="1576" y="311" width="151" height="175" xoffset="0" yoffset="0" xadvance="151" />
+        <char letter="8" id="56" x="672" y="336" width="152" height="174" xoffset="0" yoffset="0" xadvance="152" />
+        <char letter="2" id="50" x="1136" y="341" width="150" height="171" xoffset="0" yoffset="0" xadvance="150" />
+        <char letter="3" id="51" x="984" y="329" width="152" height="174" xoffset="0" yoffset="0" xadvance="152" />
+        <char letter="7" id="55" x="288" y="341" width="145" height="170" xoffset="0" yoffset="0" xadvance="145" />
+        <char letter="5" id="53" x="1427" y="329" width="146" height="172" xoffset="0" yoffset="0" xadvance="146" />
+        <char letter="1" id="49" x="1095" y="656" width="108" height="168" xoffset="0" yoffset="0" xadvance="108" />
+        <char letter="4" id="52" x="1731" y="281" width="159" height="167" xoffset="0" yoffset="0" xadvance="159" />
+        <char letter="0" id="48" x="1576" y="137" width="155" height="174" xoffset="0" yoffset="0" xadvance="155" />
+        <char letter="9" id="57" x="824" y="337" width="151" height="175" xoffset="0" yoffset="0" xadvance="151" />
+        <char letter="space" id="32" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="20" />
+        <char letter="tab" id="9" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="30" />
+    </chars>
+    <kernings count="0">
+    </kernings>
+</font>

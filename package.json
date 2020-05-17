@@ -1,0 +1,35 @@
+{
+  "name": "multifont-react-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "node-sass": "^4.13.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "0.9.5",
+    "sass-loader": "^8.0.2",
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "eventemitter3": "^4.0.0",
+    "file-loader": "^6.0.0",
+    "file-saver": "^2.0.2",
+    "jszip": "^3.3.0",
+    "maxrects-packer": "^2.6.0",
+    "mustache": "^4.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "build-app": {
+    "appId": "app-id",
+    "category": "game",
+    "win": {
+      "target": "NSIS",
+      "icon": "build/icon.ico"
+    }
+  }
+}

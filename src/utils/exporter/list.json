@@ -1,0 +1,20 @@
+[
+  {
+    "type": "Pixi.js BitmapFont",
+    "allowTrim": true,
+    "allowRotation": false,
+    "allowOneFont": true,
+    "allowMultiFont": true,
+    "template": "simplefont.mts",
+    "fileExt": "xml"
+  },
+  {
+    "type": "Pixi.js MultiBitmapFont",
+    "allowTrim": true,
+    "allowRotation": true,
+    "allowOneFont": false,
+    "allowMultiFont": true,
+    "template": "multifont.mts",
+    "fileExt": "xml"
+  }
+]

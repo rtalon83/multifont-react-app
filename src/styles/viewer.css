@@ -1,0 +1,99 @@
+.viewer-main {
+    display: block;
+    height: 100%;
+    min-width: 640px;
+}
+
+.viewer {
+    width: -webkit-calc(100% - 720px);
+    width: -moz-calc(100% - 720px);
+    width: calc(100% - 720px);
+    height: 100%;
+    margin-left: 310px;
+}
+
+.viewer-texture {
+    display: inline-block;
+}
+
+.viewer-input {
+    position: static;
+    text-align: left;
+}
+
+.result-view-container {
+    background-color: #A8D5E2;
+    height: 600px;
+    overflow: auto;
+}
+
+.settings_result {
+    background-color: #AABB00;
+    width: -webkit-calc(100% - 717px);
+    width: -moz-calc(100% - 717px);
+    width: calc(100% - 717px);
+    height: 60px;
+    margin: auto auto auto 309px;
+}
+
+.viewer-tester {
+    background-color: #AABB00;
+    height: 271px;
+    margin-top: 4px;
+}
+
+.text-result {
+    background-color: lightcyan;
+}
+
+.text-area {
+    font-family: Roboto, sans-serif;
+    font-size: x-large;
+    padding: 0;
+    resize: none;
+    width: 100%;
+    height: 210px
+}
+
+.canvas-text-result {
+    background-color: darkgray;
+    height: 210px;
+    width: 100%;
+    overflow: auto;
+}
+
+.tester-text {
+    margin-left: 5px;
+    margin-top: 5px;
+    float: left;
+    width: 220px
+}
+
+.tester-text-info {
+    margin: 10px;
+    float: left;
+}
+
+.tester-view {
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    height: 200px;
+    width: calc(100% - 235px);
+}
+
+.input-letter {
+    font-family: Roboto, sans-serif;
+    font-size: medium;
+    position: relative;
+    text-align: center;
+    width: 30px;
+    height: 20px;
+    border: 2px solid;
+    box-shadow: none;
+}
+
+.tester-table {
+    width: 100%
+}

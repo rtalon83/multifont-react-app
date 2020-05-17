@@ -1,0 +1,39 @@
+<font>
+    <info face="sample3" size="211" />
+    <common lineHeight="211" scaleW="1921" scaleH="1003" pages="0" />
+    <pages>
+        <page id="0" file="texture.png" />
+    </pages>
+    <chars count="26">
+        <char letter="F" id="70" x="975" y="503" width="120" height="204" xoffset="0" yoffset="0" xadvance="120" />
+        <char letter="H" id="72" x="1141" y="137" width="145" height="204" xoffset="0" yoffset="0" xadvance="145" />
+        <char letter="B" id="66" x="517" y="137" width="155" height="204" xoffset="0" yoffset="0" xadvance="155" />
+        <char letter="D" id="68" x="361" y="137" width="156" height="204" xoffset="0" yoffset="0" xadvance="156" />
+        <char letter="I" id="73" x="576" y="341" width="94" height="157" xoffset="0" yoffset="0" xadvance="94" />
+        <char letter="A" id="65" x="1727" y="448" width="155" height="157" xoffset="0" yoffset="0" xadvance="155" />
+        <char letter="G" id="71" x="829" y="137" width="155" height="200" xoffset="0" yoffset="0" xadvance="155" />
+        <char letter="C" id="67" x="721" y="512" width="142" height="144" xoffset="0" yoffset="0" xadvance="142" />
+        <char letter="E" id="69" x="433" y="510" width="146" height="144" xoffset="0" yoffset="0" xadvance="146" />
+        <char letter="K" id="75" x="1286" y="137" width="141" height="205" xoffset="0" yoffset="0" xadvance="141" />
+        <char letter="L" id="76" x="490" y="799" width="79" height="204" xoffset="0" yoffset="0" xadvance="79" />
+        <char letter="M" id="77" x="157" y="137" width="204" height="158" xoffset="0" yoffset="0" xadvance="204" />
+        <char letter="N" id="78" x="0" y="348" width="144" height="158" xoffset="0" yoffset="0" xadvance="144" />
+        <char letter="J" id="74" x="144" y="493" width="107" height="211" xoffset="0" yoffset="0" xadvance="107" />
+        <char letter="P" id="80" x="672" y="137" width="157" height="199" xoffset="0" yoffset="0" xadvance="157" />
+        <char letter="G" id="71" x="0" y="137" width="157" height="211" xoffset="0" yoffset="0" xadvance="157" />
+        <char letter="O" id="79" x="1286" y="501" width="154" height="145" xoffset="0" yoffset="0" xadvance="154" />
+        <char letter="T" id="84" x="1573" y="486" width="119" height="201" xoffset="0" yoffset="0" xadvance="119" />
+        <char letter="S" id="83" x="1427" y="137" width="149" height="192" xoffset="0" yoffset="0" xadvance="149" />
+        <char letter="R" id="82" x="984" y="137" width="157" height="192" xoffset="0" yoffset="0" xadvance="157" />
+        <char letter="U" id="85" x="251" y="511" width="145" height="144" xoffset="0" yoffset="0" xadvance="145" />
+        <char letter="" id="-1" x="579" y="510" width="142" height="144" xoffset="0" yoffset="0" xadvance="142" />
+        <char letter="W" id="87" x="1731" y="137" width="187" height="144" xoffset="0" yoffset="0" xadvance="187" />
+        <char letter="X" id="88" x="1095" y="512" width="149" height="144" xoffset="0" yoffset="0" xadvance="149" />
+        <char letter="Y" id="89" x="157" y="295" width="131" height="198" xoffset="0" yoffset="0" xadvance="131" />
+        <char letter="" id="-1" x="0" y="0" width="1921" height="137" xoffset="0" yoffset="0" xadvance="1921" />
+        <char letter="space" id="32" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="20" />
+        <char letter="tab" id="9" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="30" />
+    </chars>
+    <kernings count="0">
+    </kernings>
+</font>

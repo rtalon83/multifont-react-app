@@ -1,0 +1,26 @@
+.header {
+    position: relative;
+    background-color: #548C2F;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 50px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px
+}
+
+.title {
+    text-align: left;
+    font-size: x-large;
+    font-weight: bold;
+    float: right;
+}
+
+.header-title {
+    float: left
+}
+
+.header-title img{
+    vertical-align: middle;
+    margin-right: 6px;
+}

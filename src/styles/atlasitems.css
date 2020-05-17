@@ -1,0 +1,43 @@
+.item-wrapper {
+    border: 2px solid #222222;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    padding: 10px 0;
+    margin: 10px 6px;
+    cursor: pointer;
+}
+
+.item-wrapper:hover :active {
+    background-color: #aaaaaa;
+}
+
+.item-selected {
+    border-color: #D3851A;
+    background-color: #ffb880;
+}
+
+.item-image-container {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.item-image {
+    max-width: 50px;
+    max-height: 50px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.item-text-container {
+    display: inline-block;
+    padding-top: 4px;
+    padding-left: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
