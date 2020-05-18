@@ -1,7 +1,5 @@
-let MaxRectsPackerEngine = require("maxrects-packer").MaxRectsPacker;
-let PACKING_LOGIC = require("maxrects-packer").PACKING_LOGIC;
-
 import Packer from "./Packer";
+import {PACKING_LOGIC, MaxRectsPacker as MaxRectsPackerEngine} from 'maxrects-packer';
 
 const METHOD = {
     Smart: "Smart",
