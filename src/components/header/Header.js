@@ -9,7 +9,7 @@ class Header extends Component
             <div className="header">
                 <div className="header-title">
                     <img src="images/logo_app.png" alt="logo"/>
-                    <div className="title">MultiFont Packer BETA 0.1.0</div>
+                    <div className="title">MultiFont Packer BETA 0.1.3</div>
                 </div>
             </div>
         )
