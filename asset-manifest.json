@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/multifont-react-app/static/css/main.541d975f.chunk.css",
+    "main.js": "/multifont-react-app/static/js/main.a615fa80.chunk.js",
+    "main.js.map": "/multifont-react-app/static/js/main.a615fa80.chunk.js.map",
+    "runtime-main.js": "/multifont-react-app/static/js/runtime-main.7fb154a2.js",
+    "runtime-main.js.map": "/multifont-react-app/static/js/runtime-main.7fb154a2.js.map",
+    "static/js/2.9f14e9c6.chunk.js": "/multifont-react-app/static/js/2.9f14e9c6.chunk.js",
+    "static/js/2.9f14e9c6.chunk.js.map": "/multifont-react-app/static/js/2.9f14e9c6.chunk.js.map",
+    "index.html": "/multifont-react-app/index.html",
+    "precache-manifest.96fcf840c5223293825e8056d52015fe.js": "/multifont-react-app/precache-manifest.96fcf840c5223293825e8056d52015fe.js",
+    "service-worker.js": "/multifont-react-app/service-worker.js",
+    "static/css/main.541d975f.chunk.css.map": "/multifont-react-app/static/css/main.541d975f.chunk.css.map",
+    "static/js/2.9f14e9c6.chunk.js.LICENSE.txt": "/multifont-react-app/static/js/2.9f14e9c6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7fb154a2.js",
+    "static/js/2.9f14e9c6.chunk.js",
+    "static/css/main.541d975f.chunk.css",
+    "static/js/main.a615fa80.chunk.js"
+  ]
+}
