@@ -67,10 +67,5 @@ This project is based on:
 - Sprite Splitter [GitHub](https://github.com/bmarwane/spriteSplitter)
 - Bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-## To Do
-
-- OCR Tesseract.js
-- Improve Sprite Splitter alpha threshold.
-- To add new xml format `mfnt`
-- To add popups (loading, help, waiting...)
-- To add languages
+## Project Map
+https://github.com/rtalon83/multifont-react-app/projects/1
