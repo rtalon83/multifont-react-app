@@ -23,7 +23,7 @@
 
 .result-view-container {
     background-color: #A8D5E2;
-    height: 600px;
+    height: 70%;
     overflow: auto;
 }
 
@@ -38,7 +38,7 @@
 
 .viewer-tester {
     background-color: #AABB00;
-    height: 271px;
+    height: 29.5%;
     margin-top: 4px;
 }
 
@@ -52,12 +52,12 @@
     padding: 0;
     resize: none;
     width: 100%;
-    height: 210px
+    height: 185px
 }
 
 .canvas-text-result {
     background-color: darkgray;
-    height: 210px;
+    height: 185px;
     width: 100%;
     overflow: auto;
 }

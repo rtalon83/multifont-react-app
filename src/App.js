@@ -10,6 +10,8 @@ import BitmapFontData from "./model/BitmapFontData";
 import PackProcessor from "./utils/packing/PackProcessor";
 import TextureRenderer from "./utils/TextureRenderer";
 import Exporter from "./utils/exporter/Export";
+import Popup from "./components/popups/Popup";
+import {POPUP} from "./components/popups/PopupType";
 
 import './styles/app.css';
 
@@ -157,7 +159,7 @@ class App extends Component {
 
                 Observer.emit(EVENT.FONT_SELECTED, {
                     selectedFont: this._selectedFont
-                })
+                });
             }
 
             this._packCharas = this.getImageCharas();
@@ -239,20 +241,34 @@ class App extends Component {
                 }
 
                 Observer.emit(EVENT.PACK_COMPLETED, this._packResult);
+                Observer.emit(EVENT.CLOSE_POPUP);
 
             }, null);
         }
     }
 
     startExport() {
-        try {
-            let promise = Exporter.startExporter(this._packResult[0].buffer,
-                this._bitmapFonts,
-                this._packOptions);
+        if ( this._packResult && this._packResult.length > 0 ) {
+            try {
+                let promise = Exporter.startExporter(this._packResult[0].buffer,
+                    this._bitmapFonts,
+                    this._packOptions);
+            }
+            catch (e) {
+                Observer.emit(EVENT.SHOW_POPUP, {
+                    message: 'Error exporting...',
+                    type: POPUP.ERROR_EXPORTING
+                });
+            }
         }
-        catch (e) {
-            console.error("Error exporting");
+        else {
+            Observer.emit(EVENT.SHOW_POPUP, {
+                message: 'Please, add images first',
+                type: POPUP.WARNING
+            });
         }
+
+
     }
 
     render() {
@@ -264,6 +280,7 @@ class App extends Component {
                         <AtlasList/>
                         <Properties bitmapfonts={this._bitmapFonts}/>
                         <Viewer bitmapfonts={this._bitmapFonts}/>
+                        <Popup />
                     </div>
                 </div>
             </div>

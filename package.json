@@ -1,22 +1,24 @@
 {
   "homepage": "http://rtalon83.github.io/multifont-react-app",
+  "github": "https://github.com/rtalon83/multifont-react-app",
+  "issues": "https://github.com/rtalon83/multifont-react-app/issues",
   "name": "multifont-react-app",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "private": true,
   "dependencies": {
-    "node-sass": "^4.13.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "sass-loader": "^8.0.2",
     "uuid": "^7.0.3"
   },
   "devDependencies": {
-    "eventemitter3": "^4.0.0",
+    "eventemitter3": "^4.0.4",
     "file-loader": "^6.0.0",
     "file-saver": "^2.0.2",
     "gh-pages": "^2.2.0",
-    "jszip": "^3.3.0",
+    "jszip": "^3.4.0",
     "maxrects-packer": "^2.6.0",
     "mustache": "^4.0.1"
   },

@@ -24,3 +24,9 @@
     vertical-align: middle;
     margin-right: 6px;
 }
+
+.about {
+    cursor: help;
+    color: white;
+    float: right;
+}

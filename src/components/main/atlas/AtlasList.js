@@ -2,8 +2,10 @@ import {EVENT, Observer} from "../../../utils/Observer";
 import React, {Component} from 'react';
 import {ImagesLoader} from "../../../utils/ImagesLoader";
 import AtlasItems from "./AtlasItems";
+import {POPUP} from "../../popups/PopupType";
 
 import '../../../styles/atlaslist.css';
+
 
 class AtlasList extends Component {
     constructor(props) {
@@ -23,6 +25,12 @@ class AtlasList extends Component {
         event.preventDefault();
 
         if (event.dataTransfer.files.length) {
+
+            Observer.emit(EVENT.SHOW_POPUP, {
+                message: 'Loading, please wait',
+                type: POPUP.LOADING
+            });
+
             const loader = new ImagesLoader();
             loader.load(event.dataTransfer.files, this.onLoadImagesComplete)
         }

@@ -78,7 +78,9 @@ class Tester extends Component {
             <div className="viewer-tester">
                 <div className="tester-text">
                     <div className="tester-text-info">Write here</div>
-                    <textarea className="text-area" ref="text_area" onChange={this.updateResult}/>
+                    <div>
+                        <textarea className="text-area" ref="text_area" onChange={this.updateResult}/>
+                    </div>
                 </div>
                 <div className="tester-view">
                     <div className="tester-text-info">Background</div>
