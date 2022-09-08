@@ -18,7 +18,7 @@
     "file-loader": "^6.0.0",
     "file-saver": "^2.0.2",
     "gh-pages": "^2.2.0",
-    "jszip": "^3.4.0",
+    "jszip": "^3.7.0",
     "maxrects-packer": "^2.6.0",
     "mustache": "^4.0.1"
   },
