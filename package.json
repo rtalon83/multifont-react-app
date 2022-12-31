@@ -9,8 +9,8 @@
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
-    "sass-loader": "^8.0.2",
+    "react-scripts": "5.0.1",
+    "sass-loader": "^13.2.0",
     "uuid": "^7.0.3"
   },
   "devDependencies": {
